@@ -1,4 +1,4 @@
-package main;
+package Models;
 
 public class main{
     public static void main(String[] args) {
