@@ -38,5 +38,12 @@ public class City {
         this.code = code;
     }
 
-
+    @Override
+    public String toString() {
+        return "Datos de la ciudad \n"
+                + "Nombre: " + this.getName()
+                + "\nDescripcion: " + this.getDescripcion()
+                + "\nCodigo:  " + this.getCode()
+                + "\n ===============================";
+    }
 }
